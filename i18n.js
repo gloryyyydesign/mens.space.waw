@@ -132,7 +132,7 @@ const i18n = {
     hero_cta_book:"Umów wizytę", hero_cta_explore:"Sprawdź usługi",
     hero_stat_stylists:"Doświadczeni styliści", hero_stat_clients:"Zadowoleni klienci", hero_scroll:"Przewiń",
     svc_eyebrow:"Co robimy", svc_title:"Nasze usługi",
-    svc_note:"Ceny różnią się w zależności od stylisty — sprawdź indywidualne cenniki w sekcji „Zespół" poniżej.",
+    svc_note:"Ceny różnią się w zależności od stylisty — sprawdź indywidualne cenniki w sekcji «Zespół» poniżej.",
     svc_haircut_name:"Strzyżenie męskie", svc_haircut_desc:"Precyzyjne cięcie dopasowane do kształtu twarzy i osobistego stylu",
     svc_beard_name:"Strzyżenie brody", svc_beard_desc:"Wyraźne linie i zdefiniowane kontury, które idealnie oprawiają twarz",
     svc_buzz_name:"Strzyżenie maszynką", svc_buzz_desc:"Czysta, pewna praca maszynką dla ostrego, bezproblemowego wyglądu",
