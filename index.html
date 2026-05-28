@@ -524,7 +524,7 @@
 
       <!-- Vertical video -->
       <div class="loc-video fade-up">
-        <video src="assets/location-video.mp4" autoplay muted loop playsinline></video>
+        <video src="assets/location-video.mp4" autoplay muted loop playsinline title="Click to fullscreen" style="cursor:pointer" onclick="this.requestFullscreen?this.requestFullscreen():this.webkitRequestFullscreen&&this.webkitRequestFullscreen()"></video>
       </div>
 
       <!-- Map -->
