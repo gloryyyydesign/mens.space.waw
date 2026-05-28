@@ -354,13 +354,12 @@ button { font-family: inherit; cursor: pointer; }
 .service-photo img {
   width: 100%; height: 100%;
   object-fit: cover;
-  filter: grayscale(1);
   transition: filter 0.4s ease, transform 0.4s ease;
   display: block;
 }
-.service-item:hover .service-photo img {
-  filter: grayscale(0);
-  transform: scale(1.05);
+@media (hover: hover) {
+  .service-photo img { filter: grayscale(1); }
+  .service-item:hover .service-photo img { filter: grayscale(0); transform: scale(1.05); }
 }
 .service-ph {
   position: absolute;
@@ -435,12 +434,11 @@ button { font-family: inherit; cursor: pointer; }
 .case-photo img {
   width: 100%; height: 100%;
   object-fit: cover;
-  filter: grayscale(1);
   transition: filter 0.7s ease, transform 0.7s ease;
 }
-.case-card:hover .case-photo img {
-  filter: grayscale(0);
-  transform: scale(1.05);
+@media (hover: hover) {
+  .case-photo img { filter: grayscale(1); }
+  .case-card:hover .case-photo img { filter: grayscale(0); transform: scale(1.05); }
 }
 .case-photo-init {
   position: absolute;
@@ -482,12 +480,11 @@ button { font-family: inherit; cursor: pointer; }
 .barber-photo img {
   width: 100%; height: 100%;
   object-fit: cover;
-  filter: grayscale(1);
   transition: filter 0.7s, transform 0.7s;
 }
-.barber-card:hover .barber-photo img {
-  filter: grayscale(0);
-  transform: scale(1.05);
+@media (hover: hover) {
+  .barber-photo img { filter: grayscale(1); }
+  .barber-card:hover .barber-photo img { filter: grayscale(0); transform: scale(1.05); }
 }
 .barber-photo-init {
   position: absolute;
@@ -740,7 +737,7 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ─── Footer ────────────────────────────────────────────────────────────────── */
 .site-footer { background: #f5f5f5; border-top: 1px solid rgba(0,0,0,0.08); }
-.footer-inner { padding: 4rem 0; }
+.footer-inner { padding: 4rem 1.5rem; }
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
