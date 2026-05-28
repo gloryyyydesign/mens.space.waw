@@ -261,22 +261,10 @@ button { font-family: inherit; cursor: pointer; }
 .hero-eyebrow-bar { height: 1px; width: 3rem; background: #ccc; }
 .hero-eyebrow-text { color: #999; font-size: 0.68rem; letter-spacing: 0.25em; text-transform: uppercase; }
 
-.hero-title-frame {
-  display: block;
-  width: max-content;
-  max-width: calc(100vw - 3rem);
-  margin: 0 auto;
-  border: 1.5px solid #0d0d0d;
-  padding: clamp(2.5rem, 9vw, 6rem) 0 0 0;
-  text-align: left;
-  opacity: 0;
-  animation: fadeIn 0.8s ease 0.9s both;
-}
 .hero-title { line-height: 0.88; }
-.hero-line { overflow: hidden; display: block; font-size: 0; }
+.hero-line { overflow: hidden; display: block; }
 .hero-word {
-  display: inline-block;
-  vertical-align: bottom;
+  display: block;
   font-family: 'Playfair Display', 'Cormorant Garamond', serif;
   font-size: clamp(5rem, 18vw, 13rem);
   font-weight: 700;
