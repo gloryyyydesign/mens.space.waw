@@ -654,7 +654,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 @media (min-width: 1024px) {
   .location-grid {
-    grid-template-columns: 1fr 220px 1fr;
+    grid-template-columns: 1fr 300px 1fr;
     align-items: start;
   }
 }
@@ -701,7 +701,7 @@ button { font-family: inherit; cursor: pointer; }
   overflow: hidden;
   min-height: 420px;
 }
-@media (min-width: 1024px) { .loc-map { min-height: 390px; } }
+@media (min-width: 1024px) { .loc-map { min-height: 534px; } }
 .loc-map iframe {
   width: 100%;
   height: 100%;
@@ -709,7 +709,7 @@ button { font-family: inherit; cursor: pointer; }
   border: 0;
   display: block;
 }
-@media (min-width: 1024px) { .loc-map iframe { min-height: 390px; } }
+@media (min-width: 1024px) { .loc-map iframe { min-height: 534px; } }
 
 /* ─── Instagram ─────────────────────────────────────────────────────────────── */
 .insta-section { background: var(--bg); }
